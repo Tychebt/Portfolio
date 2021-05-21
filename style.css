@@ -1,4 +1,7 @@
-
+html{
+    margin: 0;
+     font: bold 14px/1.4 'Open Sans', arial, sans-serif;
+}
 header{
     position: fixed;
     top: 0;
@@ -10,15 +13,36 @@ header{
 
 a{
     color:#00adb5;
-    u
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
 }
+a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    right: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: relative;
+    background: #fff;
+    transition: width ease-out 0.4s;
+    width: 0;
+  }
+  a:hover:after { 
+    width: 100%; 
+    right: 0; 
+  }
 
 ul{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding-right: 50px;
+    list-style: none; 
 }
-
 li{
     padding: 10px;
 }
