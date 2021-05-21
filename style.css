@@ -1,4 +1,38 @@
-body{
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100vw;
     background-color: #393e46;
-    color: #222831;
+}
+
+a{
+    color:#00adb5;
+    u
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+li{
+    padding: 10px;
+}
+
+
+body{
+    background-color: #222831;
+    color: #00adb5;
+    position: absolute;
+    top: 110px;
+    font-size: 20px;
+    height: 100vh;
+}
+
+h1{
+    font-size: 40px;
 }
