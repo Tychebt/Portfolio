@@ -1,9 +1,14 @@
+::selection{
+    background-color: #00adb5;
+}
+
 html, html{
     margin: 0;
     font: bold 14px 'Open Sans', arial, sans-serif;
     color: #eeeeee;
 }
 header{
+    display: flex;
     position: fixed;
     top: 0;
     left: 0;
@@ -17,6 +22,7 @@ main{
     display: flex;
     color: #00adb5;
 }
+
 h1{
     position: relative;
     top: 0;
@@ -27,7 +33,7 @@ h1{
 
 }
 li a{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     color:#eeeeee;
     text-transform: uppercase;
@@ -53,25 +59,22 @@ li a:hover:after {
     height: 2px;
   }
 ul{
-    display: flex;
     justify-content: flex-end;
+    display: flex;
     flex-wrap: wrap;
-    padding-right: 25px;
-    list-style: none; 
+    padding-right: 30px;
     height: 100%;
+    width: 100%;
 }
 li{
     padding: 10px;
-}
-
-div.logo{
-    width: fit-content;
-    display: block;
-    position: inherit;
+    display: flex;
+    align-items: center;
 }
 
 
-div.accueil{
+
+div#accueil{
     position: absolute;
     top: 0;
     font-size: 20px;
@@ -82,7 +85,7 @@ div.accueil{
     align-items: center;
     background-color: #222831;
 }
-div.biographie{
+div#biographie{
     position: absolute;
     top: 100vh;
     font-size: 20px;
@@ -93,7 +96,7 @@ div.biographie{
     align-items: center;
     background-color: #eeeeee;
 }
-div.competences{
+div#competences{
     position: absolute;
     top: 200vh;
     font-size: 20px;
@@ -104,7 +107,7 @@ div.competences{
     align-items: center;
     background-color: #222831;
 }
-div.realisations{
+div#realisations{
     position: absolute;
     top: 300vh;
     font-size: 20px;
@@ -115,7 +118,7 @@ div.realisations{
     align-items: center;
     background-color: #eeeeee;
 }
-div.commentaires{
+div#commentaires{
     position: absolute;
     top: 200vh;
     font-size: 20px;
