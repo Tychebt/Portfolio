@@ -174,7 +174,6 @@ div.slider figure img{
     float: left;
     padding: 0;
 }
-
 @keyframes slidy {
     0%{ left: 0%;}
     20%{left: 0%;}
