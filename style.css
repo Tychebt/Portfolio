@@ -154,7 +154,7 @@ Button.CV {
     left: 20%;
 }
 div.slider{
-    width: 50%;
+    width: 30%;
     max-height: 80%;
     max-width: 1000px;
     overflow: hidden;
@@ -166,7 +166,7 @@ div.slider figure{
     padding: 0;
     font-size: 0;
     text-align: left;
-    animation: 20s slidy infinite;
+    animation: 10s slidy infinite;
 }
 div.slider figure img{
     width: 12.5%;
