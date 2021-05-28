@@ -15,7 +15,7 @@ header{
     height: 80px;
     width: 100vw;
     background-color: #393e46;
-    z-index: 1;
+    z-index: 2;
 }
 
 main{
@@ -105,6 +105,7 @@ div#competences{
     justify-content: center;
     align-items: center;
     background-color: #222831;
+    z-index:1;
 }
 div#realisations{
     position: absolute;
@@ -151,4 +152,8 @@ Button.CV {
     position: absolute;
     top: 65%;
     left: 20%;
+}
+div.slider{
+    width: 80%;
+    max-width: 1000px;
 }
