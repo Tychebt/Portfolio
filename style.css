@@ -136,7 +136,7 @@ div#commentaires{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
     padding-top: 4em;
@@ -154,6 +154,9 @@ Button.CV {
     left: 20%;
 }
 div.slider{
+    position: relative;
+    top:100px;
+    left :0%;
     width: 500px;
     max-height: 80%;
     max-width: 1000px;

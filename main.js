@@ -3,10 +3,10 @@
 let sizeSlider = $( "div.slider figure img" ).length
 
 let count = 0;
-// for(let i = 0; i<document.querySelectorAll( "div.slider figure img" ).length;i++){
+//for(let i = 0; i<document.querySelectorAll( "div.slider figure img" ).length;i++){
    
 let sliderInterval = window.setInterval(function(){ 
-    if(count>sizeSlider*-500+500){
+    if(count>sizeSlider*-500){
         document.querySelector("div.slider figure").style.left = `${count}px`
         count+= -500;
         
