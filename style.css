@@ -2,10 +2,11 @@
     background-color: #00adb5;
 }
 
-html, html{
+html, body{
     margin: 0;
     font: bold 14px 'Open Sans', arial, sans-serif;
     color: #eeeeee;
+    scroll-behavior: smooth;
 }
 header nav{
     display: flex;
