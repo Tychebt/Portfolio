@@ -121,7 +121,7 @@ div#realisations{
 }
 div#commentaires{
     position: absolute;
-    top: 200vh;
+    top: 400vh;
     font-size: 20px;
     height: 100vh;
     width: 100vw;
@@ -227,4 +227,15 @@ div.slider figure img{
   
   #backToTopBTN:hover {
     background-color: #393e46; 
+  }
+  footer{
+    position: absolute;
+    top: 500vh;
+    font-size: 20px;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393e46;
   }
