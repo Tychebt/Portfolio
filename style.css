@@ -139,7 +139,7 @@ div#commentaires{
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    top: -15%;
+    top: -15vh;
     width: 100%;
     padding-top: 4em;
 }
@@ -157,7 +157,7 @@ Button.CV {
 }
 div.slider{
     position: relative;
-    top:100px;
+    top:10px;
     left :0%;
     width: 500px;
     max-height: 80%;
@@ -231,13 +231,13 @@ div.slider figure img{
   }
 
 .wrapper{
+    position: relative;
+    top: 10px;
     background-color: #393e46;
     width: 60%;
     height: fit-content;
     display: flex;
     justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
     flex-wrap: wrap; 
     padding: 10px;
 }
@@ -260,3 +260,56 @@ figcaption {
     align-items: center;
     background-color: #393e46;
   }
+
+  @media (max-width: 833px) {
+    html, body{
+        margin: 0;
+        font:  14px 'Open Sans', arial, sans-serif;
+    }
+    img {
+        height: 150px;
+    }
+    .logo img{
+        height: 73px;
+        padding:5px;
+    }
+    .wrapper{
+        position: relative;
+        left: -10px;
+        top: 10px;
+        margin: 0;
+        background-color: #393e46;
+        width: 80%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
+        padding: 10px;
+    }
+    figcaption{
+        font-size: 12px;
+    }
+    Button.CV {
+        top: 80%;
+        left: 0;
+    }
+    .contenu-biographie {
+        flex-flow:column;
+    }
+   }
+   @media (max-width: 766px) {
+    html, body{
+        margin: 0;
+        font:  13px 'Open Sans', arial, sans-serif;
+    }
+    img {
+        height: 150px;
+    }
+    .logo img{
+        height: 73px;
+        padding:5px;
+    }
+    figcaption{
+        font-size: 20px;
+    }
+   }
