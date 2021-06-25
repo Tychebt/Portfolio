@@ -298,8 +298,12 @@ figcaption {
     figcaption{
         font-size: 12px;
     }
+    .CV + img {
+        height: 600px;
+        padding-top: 20px;
+    }
     Button.CV {
-        top: 80%;
+        top: 105%;
         left: 0;
     }
     .contenu-biographie {
@@ -314,9 +318,6 @@ figcaption {
         margin: 0;
         font:  13px 'Open Sans', arial, sans-serif;
     }
-    img {
-        height: 150px;
-    }
     .logo img{
         height: 73px;
         padding:5px;
@@ -326,6 +327,9 @@ figcaption {
     }
     P{
         font-size: 15px;
+    }
+    div.slider figure img {
+        width: 500px;
     }
    }
    @media (max-width: 445px) {

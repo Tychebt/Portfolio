@@ -1,18 +1,18 @@
-// Slider compétences 
-let sizeSlider = $( "div.slider figure img" ).length
+// // Slider compétences 
+// let sizeSlider = $( "div.slider figure img" ).length
 
-let count = 0;
+// let count = 0;
    
-let sliderInterval = window.setInterval(function(){ 
-    if(count>sizeSlider*-500){
-        document.querySelector("div.slider figure").style.left = `${count}px`
-        count+= -500;
+// let sliderInterval = window.setInterval(function(){ 
+//     if(count>sizeSlider*-500){
+//         document.querySelector("div.slider figure").style.left = `${count}px`
+//         count+= -500;
         
-    }else{
-        count = 0
-        document.querySelector("div.slider figure").style.left = `${count}px`
-    }
-  }, 1000);
+//     }else{
+//         count = 0
+//         document.querySelector("div.slider figure").style.left = `${count}px`
+//     }
+//   }, 1000);
 
 
 // Back to top 
