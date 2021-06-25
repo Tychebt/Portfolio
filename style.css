@@ -29,6 +29,11 @@ h1{
     font-size: 2.5vw; 
     color: #00adb5;
 }
+p{
+    color: #eee;
+    font-size: 20px;
+    font-weight: lighter;
+}
 img{
     padding: 5px;
 }
@@ -154,6 +159,10 @@ Button.CV {
     position: absolute;
     top: 65%;
     left: 20%;
+}
+Button.CV a {
+    text-decoration: none;
+    color: #eee;
 }
 div.slider{
     position: relative;
@@ -315,6 +324,9 @@ figcaption {
     figcaption{
         font-size: 20px;
     }
+    P{
+        font-size: 15px;
+    }
    }
    @media (max-width: 445px) {
     html, body{
@@ -342,5 +354,8 @@ figcaption {
     Button.CV {
         top: 105%;
         left: 0;
+    }
+    div.slider figure img {
+        width: 400px;
     }
    }
