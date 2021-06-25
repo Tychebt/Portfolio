@@ -229,6 +229,25 @@ div.slider figure img{
   #backToTopBTN:hover {
     background-color: #393e46; 
   }
+
+.wrapper{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; 
+    
+}
+.wrapper figure{
+    background-color: rgb(35, 195, 223);
+
+}
+caption{
+    caption-side: bottom;
+}
   footer{
     position: absolute;
     top: 500vh;
