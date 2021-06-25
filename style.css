@@ -296,6 +296,9 @@ figcaption {
     .contenu-biographie {
         flex-flow:column;
     }
+    .bienvenue{
+        font-size: 25px;
+    }
    }
    @media (max-width: 766px) {
     html, body{
@@ -311,5 +314,33 @@ figcaption {
     }
     figcaption{
         font-size: 20px;
+    }
+   }
+   @media (max-width: 445px) {
+    html, body{
+        margin: 0;
+        font:  10px 'Open Sans', arial, sans-serif;
+    }
+    .CV + img {
+        height: 400px;
+    }
+    img {
+        height: 150px;
+    }
+    .logo img{
+        height: 73px;
+        padding:5px;
+    }
+    .wrapper{
+        margin: 0;
+        width: 100%;
+        padding: 5px;
+    }
+    figcaption{
+        font-size: 20px;
+    }
+    Button.CV {
+        top: 105%;
+        left: 0;
     }
    }
