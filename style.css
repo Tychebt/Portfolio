@@ -139,7 +139,7 @@ div#commentaires{
     justify-content: center;
     align-items: flex-start;
     position: absolute;
-    top: -5vh;
+    top: -15%;
     width: 100%;
     padding-top: 4em;
 }
@@ -233,17 +233,17 @@ div.slider figure img{
 .wrapper{
     background-color: #393e46;
     width: 60%;
-    height: 50%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap; 
-    
+    padding: 10px;
 }
 .wrapper figure{
     background-color: #00adb5;
-
+    margin: 5px;
 }
 figcaption {
     justify-content: center;
