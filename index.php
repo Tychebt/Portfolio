@@ -100,8 +100,24 @@
             <h1 class="title">
                 commentaires
             </h1>
-        <?php  include('config.php'); ?>
+        <?php  include('main.php'); ?>
 
+        <div class="form">
+            <h1>Déposer un commentaire</h1>
+    <form method="post" action="main.php">.
+        <div class="col-1">
+            
+            <input type="text"  id="nom" name="nom" placeholder="Nom"  />
+            <input type="text"  id="prenom" name="prenom" placeholder="prénom" />
+            <input type="text"  id="mail" name="mail" placeholder="Mail" />
+         </div>
+         <div class="col-2">
+         <textarea id="message" name="message" rows="10" cols="50">Veuillez écrire le message que vous souhaiteriez recevoir !</textarea>   
+            <input type="submit" value="Envoyer" />
+        </div>
+        </form>
+    
+    </div>
         </div>
     </section>
     <button onclick="backToTop()" id="backToTopBTN" title="Retour en haut !">∧</button>
