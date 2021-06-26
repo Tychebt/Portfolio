@@ -100,6 +100,8 @@
             <h1 class="title">
                 commentaires
             </h1>
+        <?php  include('config.php'); ?>
+
         </div>
     </section>
     <button onclick="backToTop()" id="backToTopBTN" title="Retour en haut !">∧</button>
