@@ -108,7 +108,7 @@
         <div class="col-1">
             
             <input type="text"  id="nom" name="nom" placeholder="Nom"  />
-            <input type="text"  id="prenom" name="prenom" placeholder="prénom" />
+            <input type="text"  id="prenom" name="prenom" placeholder="Prénom" />
             <input type="text"  id="mail" name="mail" placeholder="Mail" />
          </div>
          <div class="col-2">
