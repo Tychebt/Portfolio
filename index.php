@@ -72,32 +72,32 @@
             </h1>
             <div class="wrapper">
                 <figure>
-                <a href="https://tychebt.github.io/GoogleHome/">
+                <a target="_blank" href="https://tychebt.github.io/GoogleHome/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
                          alt="Page d'accueil de Google">
                 </a>
                     <figcaption>Google Home</figcaption>
                 </figure>
                 <figure>
-                <a href="https://tychebt.github.io/ETCH-A-SKETCH/">
+                <a target="_blank" href="https://tychebt.github.io/ETCH-A-SKETCH/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
                          alt="Pour peindre des choses">
                 </a>
                     <figcaption>Etch-A-Sketch</figcaption>
                 </figure>
                 <figure>
-                <a href="https://tychebt.github.io/CALCULATOR/">
+                <a target="_blank" href="https://tychebt.github.io/CALCULATOR/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
                          alt="Calculatrice en JS / CSS">
                 </a>
                     <figcaption>Calculatrice</figcaption>
                 </figure>
                 <figure>
-                <a href="https://tychebt.github.io/RockPaperScissors/">
+                <a target="_blank" href="https://tychebt.github.io/RockPaperScissors/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
                          alt="Pierre feuille sciseaux">
                 </a>
-                    <figcaption>Mon 4eme projet</figcaption>
+                    <figcaption>Pierre Feuille Sciseaux</figcaption>
                 </figure>
             </div>
         </div>
