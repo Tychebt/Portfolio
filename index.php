@@ -72,25 +72,31 @@
             </h1>
             <div class="wrapper">
                 <figure>
-                <a href="http://www.perdu.com">
+                <a href="https://tychebt.github.io/GoogleHome/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
-                         alt="Elephant at sunset">
+                         alt="Page d'accueil de Google">
                 </a>
-                    <figcaption>Mon premier projet</figcaption>
+                    <figcaption>Google Home</figcaption>
                 </figure>
                 <figure>
+                <a href="https://tychebt.github.io/ETCH-A-SKETCH/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
-                         alt="Elephant at sunset">
-                    <figcaption>Mon 2eme projet</figcaption>
+                         alt="Pour peindre des choses">
+                </a>
+                    <figcaption>Etch-A-Sketch</figcaption>
                 </figure>
                 <figure>
+                <a href="https://tychebt.github.io/CALCULATOR/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
-                         alt="Elephant at sunset">
-                    <figcaption>Mon 3eme projet</figcaption>
+                         alt="Calculatrice en JS / CSS">
+                </a>
+                    <figcaption>Calculatrice</figcaption>
                 </figure>
                 <figure>
+                <a href="https://tychebt.github.io/RockPaperScissors/">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
-                         alt="Elephant at sunset">
+                         alt="Pierre feuille sciseaux">
+                </a>
                     <figcaption>Mon 4eme projet</figcaption>
                 </figure>
             </div>
