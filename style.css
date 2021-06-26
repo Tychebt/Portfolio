@@ -19,7 +19,10 @@ header nav{
     background-color: #393e46;
     z-index: 2;
 }
-
+form {
+    display: flex;
+    flex-direction: column;
+}
 main{
     display: flex;
     color: #393e46;
@@ -258,6 +261,20 @@ div.slider figure img{
 figcaption {
     justify-content: center;
     display: flex;
+}
+.wrapper-commentaire {
+    padding: 10px;
+    margin: 10px;
+    background:  #393e46;
+}
+.form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+input[type="submit"]:hover {
+    color: #eee;
+    background: #00adb5;
 }
   footer{
     position: absolute;

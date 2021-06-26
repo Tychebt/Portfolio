@@ -63,7 +63,7 @@
                 </figure>
             </div>
         </div>
-    <section>
+    </section>
 
     <section>
         <div id="realisations">
@@ -72,8 +72,10 @@
             </h1>
             <div class="wrapper">
                 <figure>
+                <a href="http://www.perdu.com">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaUZMbfBcvrHifx398SaQct_dtVfGSaPD1ee6lBOGPSlRc4Q90yvJhWTRQopKON7yrMi0&usqp=CAU"
                          alt="Elephant at sunset">
+                </a>
                     <figcaption>Mon premier projet</figcaption>
                 </figure>
                 <figure>
@@ -100,26 +102,22 @@
             <h1 class="title">
                 commentaires
             </h1>
-        <?php  include('main.php'); ?>
+            <div class="commentaires">
+                 <?php  include('main.php'); ?>
+            </div>
 
         <div class="form">
-            <h1>Déposer un commentaire</h1>
-    <form method="post" action="main.php">.
-        <div class="col-1">
-            
-            <input type="text"  id="nom" name="nom" placeholder="Nom"  />
-            <input type="text"  id="prenom" name="prenom" placeholder="Prénom" />
-            <input type="text"  id="mail" name="mail" placeholder="Mail" />
-         </div>
-         <div class="col-2">
-         <textarea id="message" name="message" rows="10" cols="50">Veuillez écrire le message que vous souhaiteriez recevoir !</textarea>   
-            <input type="submit" value="Envoyer" />
-        </div>
-        </form>
-    
-    </div>
+                <h1>Déposer un commentaire</h1>
+                <form method="post" action="main.php">.
+                        <input type="text"  id="nom" name="nom" placeholder="Nom"  />
+                        <input type="text"  id="prenom" name="prenom" placeholder="Prénom" />
+                        <input type="text"  id="mail" name="mail" placeholder="Mail" />
+                        <textarea id="message" name="message" rows="10" cols="50">Veuillez écrire le message que vous souhaiteriez recevoir !</textarea>   
+                        <input type="submit" value="Envoyer" />
+                </form>
         </div>
     </section>
+
     <button onclick="backToTop()" id="backToTopBTN" title="Retour en haut !">∧</button>
 </main>
     <footer>
